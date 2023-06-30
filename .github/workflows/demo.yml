@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Print Something
         run: echo Guthub action!
+      - name: Print a few lines
+        run: |
+          echo first line
+          echo second line
+          echo third line
